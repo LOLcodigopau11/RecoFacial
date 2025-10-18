@@ -1,0 +1,23 @@
+[project]
+name = "reco-facial"
+version = "1.0.0"
+description = "Sistema de Reconocimiento Facial con Control de Accesos"
+authors = [{ name = "Tu Nombre", email = "tu@email.com" }]
+dependencies = [
+    "opencv-python>=4.9.0",
+    "opencv-contrib-python>=4.9.0",
+    "mysql-connector-python>=8.3.0",
+    "numpy>=1.26.0",
+]
+requires-python = ">=3.9"
+readme = "README.md"
+
+[project.optional-dependencies]
+dev = ["pytest>=8.4.2", "pytest-cov>=7.0.0"]
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = false

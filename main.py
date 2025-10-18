@@ -1,8 +1,7 @@
-#funciona
 import sys
-sys.path.append("src/deteccion")  # Agregar el directorio de 'reconocimiento_demo.py' al PATH
 
-import reconocimiento_demo  # ejecutar el código en 'reconocimiento_demo.py'
+sys.path.append("src/deteccion")
+import reconocimiento_demo
 
 if __name__ == "__main__":
-    reconocimiento_demo.main()  
+    reconocimiento_demo.main()
