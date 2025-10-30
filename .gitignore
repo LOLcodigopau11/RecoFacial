@@ -151,6 +151,3 @@ modelos/*.pkl
 modelos/*.h5
 modelos/*.pb
 !modelos/.gitkeep
-
-# Logs
-*.log
